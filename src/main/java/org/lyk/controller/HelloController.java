@@ -15,7 +15,7 @@ public class HelloController
     @RequestMapping("echo")
     public Object echo(String msg)
     {
-        System.out.println("收到请求:" + msg);
-        return "Hello :" + msg.toUpperCase();
+        System.out.println("receve msg:" + msg);
+        return "Hello(echo):" + msg.toUpperCase();
     }
 }
