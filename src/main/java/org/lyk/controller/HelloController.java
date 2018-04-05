@@ -16,6 +16,6 @@ public class HelloController
     public Object echo(String msg)
     {
         System.out.println("receve msg:" + msg);
-        return "Hello(echo):" + msg.toUpperCase();
+        return "Hello(echo 001):" + msg.toUpperCase();
     }
 }
